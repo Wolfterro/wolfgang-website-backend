@@ -1,1 +1,0 @@
-export BACKEND_ADDRESS="https://wolfgangalmeida.pythonanywhere.com"

@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-BACKEND_ADDRESS = os.environ.get("BACKEND_ADDRESS", "http://localhost:8000")
+BACKEND_ADDRESS = os.environ.get("BACKEND_ADDRESS", "https://wolfgangalmeida.pythonanywhere.com")
 
 
 # Application definition
