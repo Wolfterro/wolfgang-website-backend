@@ -25,7 +25,7 @@ SECRET_KEY = 'cea53teibsma2#ua%$)@9^zugl^d&=9kz*ukd1xew))9%!fy2_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 BACKEND_ADDRESS = os.environ.get("BACKEND_ADDRESS", "http://localhost:8000")
 
